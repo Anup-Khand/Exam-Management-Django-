@@ -1,0 +1,108 @@
+.heading {
+  text-align: center;
+  font-weight: bold;
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+.listcontainer {
+  margin-top: 4%;
+  margin-right: 15%;
+  margin-left: 15%;
+  display: grid;
+  gap: 1.9rem 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 150px), 1fr));
+}
+.items {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding: 0.89rem;
+  border-radius: 0.8rem;
+  background-color: rgb(82, 82, 182);
+  font-weight: bold;
+  cursor: pointer;
+}
+.items > p {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+button {
+  text-align: center;
+  margin-left: 30px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  background-color: skyblue;
+}
+.formcontainer {
+  /* position: relative; */
+  background-color: rgba(18, 16, 16, 0.208);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+}
+.form {
+  position: relative;
+  border: 1px solid black;
+  background-color: rgb(51, 156, 51);
+  border-radius: 5px;
+  padding: 2rem;
+  max-width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* .form > p {
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translate(-30%, 20%);
+  background-color: aqua;
+  border-radius: 50%;
+  padding: 5px 8px;
+  cursor: pointer;
+} */
+/* .form > form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+} */
+/* .form > form > span {
+  font-weight: bold;
+  font-size: 1.4rem;
+} */
+.input {
+  padding: 0.7rem;
+  outline: none;
+  border: 1px solid black;
+  background: transparent;
+  
+}
+.form > form > input::placeholder {
+  color: black;
+}
+.btn {
+  padding: 10px 25px 10px 25px;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: none;
+  background-color: red;
+}
+.input-edit {
+  display: flex;
+  justify-content: center;
+  padding: 0.9rem;
+  outline: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}

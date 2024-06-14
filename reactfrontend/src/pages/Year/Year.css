@@ -1,0 +1,9 @@
+.year{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background-color: red;
+    margin-bottom: 1rem;
+}

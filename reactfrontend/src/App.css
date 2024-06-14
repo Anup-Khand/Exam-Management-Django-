@@ -1,0 +1,90 @@
+.grid-container {
+  /* display: grid;
+  grid-template-columns: 15rem 1fr;
+  gap: 1em; */
+  display: flex;
+}
+.insidecontainer {
+  flex: 1;
+  /* margin: 0rem 3rem 0rem 3rem; */
+  position: relative;
+}
+.insidecontainer {
+  position: relative;
+  z-index: 1; /* Ensure it has a higher z-index than other content */
+}
+
+.custom-modal .modal-dialog {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1050; 
+    max-width: none; /* Prevent default max-width from interfering */
+  width: auto; //* Ensure it's above other elements */
+}
+
+.middle {
+  padding: 1rem;
+  display: flex;
+  justify-content: end;
+}
+
+
+.formcontainer {
+  position: absolute;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(14, 12, 12, 0.787);
+}
+.StudentFormContainer {
+  z-index: 3;
+  border-radius: 1rem;
+  position: fixed;
+  padding: 1rem 2rem 2rem 2rem;
+  /* top: 0;
+  left: 0;
+  transform: translate(30%, 10%); */
+   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--nav-text);
+}
+.FacultyFormContainer {
+  z-index: 3;
+  border-radius: 1rem;
+  position: absolute;
+  padding: 1rem 2rem 2rem 2rem;
+  /* top: 0;
+  left: 0;
+  transform: translate(100%, 70%); */
+   /* position: absolute; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--nav-text);
+}
+.StudentFormContainer > span {
+  margin-left: 100%;
+  margin-bottom: 1rem;
+  padding: 0.2rem 0.4rem 0.2rem 0.4rem;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: var(--dash-nav);
+}
+.Card-btn {
+  /* color: red; */
+  cursor: pointer;
+}
+.active {
+  border-radius: 1rem;
+  background-color: var(--nav-hover);
+}
+
+td,th{
+  text-align: center;
+}

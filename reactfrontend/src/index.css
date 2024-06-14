@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  transition: all ease;
+}
+
+img{
+  max-width: 100%;
+
+}
+
+:root{
+  --bg-color : #152259;
+  --nav-text : #FFFFFF;
+  --nav-hover :#2D88D4;
+  --dash-nav:#FCFAFA;
+}
